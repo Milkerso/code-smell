@@ -6,9 +6,14 @@
     <groupId>code-smell</groupId>
     <artifactId>code-smell</artifactId>
     <version>0.0.1-SNAPSHOT</version>
- <sonar.host.url>https://sonarcloud.io</sonar.host.url>
- <sonar.projectKey>lab2_1</sonar.projectKey>
- <sonar.organization>milkerso</sonar.organization>
+ <properties>
+  <sonar.projectKey>Milkerso_code-smell</sonar.projectKey>
+  <sonar.organization>lab2-1</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>8789ab3632c10a34a1e029311ee97d854872cade</sonar.login>
+
+
+</properties>
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
