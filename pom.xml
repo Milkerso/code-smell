@@ -6,6 +6,9 @@
     <groupId>code-smell</groupId>
     <artifactId>code-smell</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+ <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+ <sonar.projectKey>lab2_1</sonar.projectKey>
+ <sonar.organization>milkerso</sonar.organization>
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -35,4 +38,13 @@
             <type>jar</type>
         </dependency>
     </dependencies>
+         <build>
+		<plugins>
+			<plugin>
+                                     <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.6.0.1398</version>
+      </plugin>
+		</plugins>
+	</build>
 </project>
