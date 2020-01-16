@@ -8,7 +8,7 @@ pool:
 steps:
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'milkerso_lab2_1'
+    SonarCloud: 'aaa1'
     organization: 'milkerso'
     scannerMode: 'Other'
 
